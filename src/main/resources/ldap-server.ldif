@@ -1,0 +1,24 @@
+dn: dc=corin,dc=com
+objectClass: top
+objectClass: domain
+
+dn: ou=people,dc=corin,dc=com
+objectclass: top
+objectclass: organizationalUnit
+ou: people
+
+dn: ou=groups,dc=corin,dc=com
+objectclass: top
+objectclass: organizationalUnit
+ou: groups
+
+dn: uid=corin,ou=people,dc=corin,dc=com
+objectclass: top
+objectclass: person
+objectclass: organizationalPerson
+objectclass: inetOrgPerson
+cn: corin
+sn: kimcorin
+uid: corin
+userPassword: {SSHA}RiskAaK6tOcyKP+tFMiUDEDU+CK1sUgu
+

@@ -1,0 +1,6 @@
+spring:
+  ldap:
+    embedded:
+      ldif: classpath:ldap-server.ldif
+      base-dn: dc=corin,dc=com
+      port: 8389
